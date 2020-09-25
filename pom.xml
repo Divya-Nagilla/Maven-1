@@ -30,7 +30,7 @@
 	<artifactId>fileadd</artifactId>
 	<version>1.0</version>
 	<scope>system</scope>
-	<systemPath>E:\DevOps-58</systemPath>
+	<systemPath>${basedir}\file1.txt</systemPath>
    </dependency>
  </dependencies>
   <build>
