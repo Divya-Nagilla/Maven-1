@@ -25,13 +25,7 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-    <dependency>
-	<groupId>testgrp</groupId>
-	<artifactId>fileadd</artifactId>
-	<version>1.0</version>
-	<scope>system</scope>
-	<systemPath>${basedir}\file1.txt</systemPath>
-   </dependency>
+
  </dependencies>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -77,5 +71,14 @@
         </plugin>
       </plugins>
     </pluginManagement>
+
+    <resources>
+      <resource>
+        <directory>E:\DevOps-58\Maven-1</directory>
+        <includes>
+          <include>**\file1txt</include>
+        </includes>
+      </resource>
+    </resources>
   </build>
 </project>
