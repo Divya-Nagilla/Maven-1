@@ -74,9 +74,9 @@
 
     <resources>
       <resource>
-        <directory>E:\DevOps-58\Maven-1</directory>
+        <directory>E:\DevOps-58\maven-files</directory>
         <includes>
-          <include>**\file1txt</include>
+          <include>**\tfile.txt</include>
         </includes>
       </resource>
     </resources>
