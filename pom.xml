@@ -81,8 +81,8 @@
         </includes>
       </resource>
     </resources>
-    
+    <build>
     <finalname>mavenproj</finalname>
-
+    </build>
   </build>
 </project>
